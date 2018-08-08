@@ -1,15 +1,19 @@
 package all;
 public class ConceptofConstractor {
 	int a =100;
+	int b;
 	int m1(){
 		System.out.println("m1 method");
-		return a;
+		return b;
 	}
 	ConceptofConstractor(){
+		this.m1();          //This is the use of "this" keyword.During object creation it will call the method
 		System.out.println("Parametarized cons");
 	}
-	ConceptofConstractor(int a){
-		
+	ConceptofConstractor(int c){ //Non Parametarized
+//		this.a=a;
+		System.out.println(a);
+		System.out.println("ndjdj");
 	}
 
 public static void main(String arg[])  {
