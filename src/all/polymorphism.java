@@ -20,9 +20,6 @@ public class polymorphism extends test1{
 	void Badminton(){
 		System.out.println("This is also game");
 	}
-	
-	
-	
 	public static void main(String[] args) {
 		test t;
 		test poly;
