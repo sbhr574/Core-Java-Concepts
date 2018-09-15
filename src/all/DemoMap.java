@@ -25,7 +25,7 @@ public class DemoMap {
 		m.put("Name4", "rick1");//duplicate key not allowing
 		System.out.println("Value of m: "+m);
 		System.out.println(m.get("Name"));
-		System.out.println(m.get("name"));//null because its not saving the value based on index and no array bound exception will appear.
+		System.out.println(m.get("name"));//null >because its not saving the value based on index and no array bound exception will appear.
 		//How to iterate the all data in hashmap
 		for(Entry hm:m.entrySet()){  //m.entrySet()=this is having all the data
 			System.out.println(hm.getKey()+" "+hm.getValue());

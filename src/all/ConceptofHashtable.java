@@ -15,8 +15,8 @@ public class ConceptofHashtable {
 		ht1.put(4, "dom");
 		ht1.put(5, "java");
 		//No null key and value,it will give null pointer exception
-		ht1.put(null, "");
-		ht1.put(7, null);
+//		ht1.put(null, "");
+//		ht1.put(7, null);
 		ht1.put(5, "java"); //Contains unique value
 		System.out.println(ht1);
 		//Creating clone of ht1 

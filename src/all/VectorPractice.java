@@ -31,7 +31,7 @@ public class VectorPractice
 		System.out.println(v2);
 		
 		//example 3: of vector contructor
-				Vector v3=new Vector(10,5);
+				Vector v3=new Vector(10,5);                    //1st it will add 10 data after that it will increase till 5
 				System.out.println(v3.capacity()); //10
 				for(int i =0;i<10;i++){
 					v3.addElement(i);
