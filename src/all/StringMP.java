@@ -7,11 +7,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class live {
+public class StringMP {
 
 	public static void main(String[] args) {
 		int i,j,k;
-//how to reverse perticular string without using exsting function
+//how to reverse perticular string without using existing function
 		//1.using for loop
 		String s="Reverse";
 		int len=s.length();

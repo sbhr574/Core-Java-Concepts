@@ -23,6 +23,8 @@ public class Encapsulation extends A{
 	a1.seta(100);
 	int as=a1.geta();
 	System.out.println(as);
+	a1.seta(12);
+	System.out.println(a1.geta());
 
 	
 	
