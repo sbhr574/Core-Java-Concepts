@@ -1,10 +1,11 @@
 package all;
-interface aaa{
+
+interface aaa1{
 	void m1();
 	void m2();
 	int a=100;
 }
-abstract class abc implements aaa{
+abstract class abc implements aaa1{
 	public void m2(){
 		System.out.println("naja");
 	}

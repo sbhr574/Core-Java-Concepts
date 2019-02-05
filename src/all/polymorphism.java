@@ -22,24 +22,23 @@ public class polymorphism extends test123{
 	}
 	public static void main(String[] args) {
 		test t;
-		test poly;
+		polymorphism poly;
 		test t1;
 		t=new test();
 		t.game(); //football
 		new polymorphism().game(); //Volly
-		poly=new polymorphism(); //Upcasting, Polymorphism, overridding, late binding
+		poly = new polymorphism(); //Upcasting, Polymorphism, overridding, late binding
 		poly.game();//Volly
-		poly.video(); //game
 		new polymorphism().Badminton(); //This is also game
 //		polymorphism pol=(polymorphism) new test();//downcasting
 //		pol.Badminton();
 //		pol.game();
-		t1=new test123();
-		t1.game();
-		t1.video();
+//		t1=new test123();
+//		t1.game();
+//		t1.video();
 		 
 		
 		
 	}
 
-}
+	}
