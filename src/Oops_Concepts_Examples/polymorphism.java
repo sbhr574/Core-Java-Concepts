@@ -13,7 +13,7 @@ class test1 extends test{
 		System.out.println("game of test1");
 	}
 }
-public class polymorphism extends test123{
+public class polymorphism extends test1{
 	void game(){
 		System.out.println("Volly");
 	}

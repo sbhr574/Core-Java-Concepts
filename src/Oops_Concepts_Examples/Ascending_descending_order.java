@@ -2,7 +2,7 @@ package Oops_Concepts_Examples;
 
 
 
-	class interview {
+	class Ascending_descending_order {
 	  
 	public static void main(String[] args) {
 		int a[] = { 2, 15, 56, 88, 3, 0, 12 };
