@@ -1,4 +1,4 @@
-package Oops_Concepts_Examples;
+package String_Manipulation;
 
 import java.util.Arrays;
 import java.util.HashMap;
