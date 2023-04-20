@@ -11,7 +11,7 @@ public class BinarySearch
 
         Arrays.sort(arr);
 
-        int num = 60; //Searching this number
+        int num = 70; //Searching this number
 
         int f = 0;
         int l = arr.length - 1;
@@ -36,7 +36,5 @@ public class BinarySearch
                 }
             }
         }
-
-
     }
 }
