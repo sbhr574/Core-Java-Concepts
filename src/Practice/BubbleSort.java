@@ -31,5 +31,19 @@ public class BubbleSort
             System.out.println(Arrays.toString(a));
         }
 
+        //using for loop
+        int ar[] = {9,7,1,2,4,67,21,4,54,11};
+        for(int i=0;i<ar.length;i++){
+            for (int j=i+1;j<ar.length;j++){
+                if(ar[i]>ar[j])
+                {
+                    int k = ar[i];
+                    ar[i] = ar[j];
+                    ar[j] = k;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(ar));
+
     }
 }
