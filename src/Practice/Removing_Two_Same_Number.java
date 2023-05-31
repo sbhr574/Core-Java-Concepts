@@ -1,7 +1,6 @@
 package Practice;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Removing_Two_Same_Number
@@ -10,21 +9,22 @@ public class Removing_Two_Same_Number
     // Remove numbers if array elements are consecutive
     public static void main(String[] args)
     {
-        int ar[] = {1,2,2,3,4,5,5,3};
-
-        //Arrays.sort(ar); // if array is not sorted
+        int[] ar = {1, 2, 2, 6, 7, 9, 9, 5, 2, 7, 7, 7};
 
         List<Integer> lt1 = new ArrayList<>();
 
-        for(int i=1;i<ar.length;i++)
+        for(int i=0;i<ar.length;i++)
         {
-            if(ar[i-1]==ar[i])
-            {
-                i = i + 1;
+            if(i == ar.length -1) {
+                lt1.add(ar[i]);
+                break;
+            }
+            if(ar[i]!=ar[i+1]){
+                lt1.add(ar[i]);
             }
             else
             {
-                lt1.add(ar[i-1]);
+                i++;
             }
         }
 
