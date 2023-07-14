@@ -23,9 +23,9 @@ public class QuickSort
         int i = l;
         int j = h;
 
-        while (i<j)
+        while (i<j)//will check till i getter than j
         {
-            while (ar[i] <= pivot)
+            while (ar[i] <= pivot)//Will stop if found greater tha pivot
             {
                 if(i==h) break;//this break is needed otherwise array bound of exception can throw
                 i++;
@@ -43,7 +43,7 @@ public class QuickSort
                 ar[j] = temp;
             }
         }
-        // below swap pivot and last value moved index need to
+        // below swap pivot and last value moved index need to. Here will find the partition
         int temp = ar[j];
         ar[j] = pivot;
         ar[l] = temp;

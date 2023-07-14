@@ -22,7 +22,7 @@ public class RevInteger
             rev = rev*10 + num%10;
             num = num/10;
         }
-        System.out.println(rev);
+//        System.out.println(rev);
 
         reverseMethod(56789);
     }

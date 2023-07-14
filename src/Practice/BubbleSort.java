@@ -4,6 +4,16 @@ import java.util.Arrays;
 
 public class BubbleSort
 {
+
+    /**
+     * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they
+     * are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+     *
+     * 1. Bubble sort starts with very first two elements, comparing them to check which one is greater.
+     * 2. Using two for loop
+     *
+     * @param args
+     */
     public static void main(String[] args)
     {
 //        int a[] = {4,1,2,5,3};
@@ -28,7 +38,7 @@ public class BubbleSort
                     c = a[i];
                 }
             }
-            System.out.println(Arrays.toString(a));
+//            System.out.println(Arrays.toString(a));
         }
 
         //using for loop

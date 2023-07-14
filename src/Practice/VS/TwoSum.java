@@ -28,7 +28,8 @@ public class TwoSum
         int target = 19;
         int ar[] = {16, 4, 23, 8, 15, 42, 1, 2};
 
-        int[] ar1 = ar;
+        int[] ar1 = ar.clone();
+
         Arrays.sort(ar1);
         int low = 0;
         int high = ar.length -1;
@@ -43,9 +44,17 @@ public class TwoSum
                 int finalHigh = high;
                 System.out.println(ar1[finalLow]);
                 System.out.println(ar1[finalHigh]);
-                int aa = IntStream.range(0, ar.length).filter(x -> ar1[finalLow] == ar[x]).findFirst().orElse(-1);
-                int bb = IntStream.range(0, ar.length).filter(y -> ar[y]== ar1[finalHigh]).findFirst().orElse(-1);
-                System.out.println(aa +" "+ bb);
+                int val1 = ar1[finalLow];
+                int val2 = ar1[finalHigh];
+                IntStream.range(0, ar.length).forEach(x->{
+                    if(val1==ar[x] || val2==ar[x])
+                    {
+                        System.out.println("Index "+x);
+                    }
+                });
+//                int aa = IntStream.range(0, ar.length).filter(x -> ar1[finalLow] == ar[x]).findFirst().orElse(-1);
+//                int bb = IntStream.range(0, ar.length).filter(y -> ar[y]== ar1[finalHigh]).findFirst().orElse(-1);
+//                System.out.println(aa +" "+ bb);
                 break;
             }
             else
@@ -83,21 +92,24 @@ public class TwoSum
     }
 
 
-    public static void test12()
+    public static void usingHashMap()
     {
-        int ar[] = {16, 4, 23, 8, 15, 42, 1, 2};
+//        int ar[] = {16, 4, 23, 8, 15, 42, 1, 2};
+        int ar[] = {7, 4, 10, 19, 2, 6};
 
         Map<Integer, Integer> mp = new HashMap<>();
         int target = 19;
         int i = 0;
         while (i<ar.length)
         {
-            int complement = Math.abs(target - ar[i]);
+            int complement = target - ar[i];
             if(mp.containsKey(complement))
             {
-                System.out.println(mp.get(complement) +" " +i);
+                System.out.println("Index: "+ mp.get(complement) +" for value :: " + complement);
+                System.out.println("Index: "+ i +" for value :: " +ar[i]);
+                break;
             }
-            mp.put(complement, i);
+            mp.put(ar[i], i);
             i++;
         }
 
@@ -106,7 +118,7 @@ public class TwoSum
         int ar[] = {2, 7, 11, 15, 5, 4};
 //        System.out.println(Arrays.toString(twoSum(ar, 9)));
 
-//        usingQuickSort();
-        test12();
+        usingQuickSort();
+//        usingHashMap();
     }
 }

@@ -8,6 +8,7 @@ public class Find_First_UniqueChar
 {
     public static void test()
     {
+        int index = -1;
         String ct = "FourMyFourMyHouse";
         Map<Character, Integer> mp = new HashMap<>();
         char [] ch = ct.toCharArray();
@@ -23,20 +24,16 @@ public class Find_First_UniqueChar
             }
         }
 
-        for(char c: ch)
+        for(int i=0; i<ch.length; i++)
         {
-            if(mp.get(c)==1)
+            if(mp.get(ch[i])==1)
             {
-                System.out.println(c);
+                index = i;
                 break;
             }
         }
 
-//        Set<Map.Entry<Character, Integer>> dn = mp.entrySet();
-//        for (Map.Entry en : dn)
-//        {
-//
-//        }
+        System.out.println(index);
 
     }
 
