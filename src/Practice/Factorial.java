@@ -11,12 +11,12 @@ public class Factorial
         return x;
     }
     public static void main(String[] args) {
-        int num = 10;
-        for(int i = num; i>1;i--)
-        {
-            num = num * (i-1);
-        }
-        System.out.println(num);
+//        int num = 10;
+//        for(int i = num; i>1;i--)
+//        {
+//            num = num * (i-1);
+//        }
+//        System.out.println(num);
 
         System.out.println(fact(3));
     }

@@ -10,6 +10,9 @@ public class BubbleSort
 //        int a[] = {2,8,3,1,6,4};
         int a[] = {15,8,23,3,9,32,78,21,5,5};
 
+        int []fr = Arrays.stream(a).sorted().toArray();
+        System.out.println(Arrays.equals(fr, a));
+
         int count = 0;
         while(count < a.length-1)
         {

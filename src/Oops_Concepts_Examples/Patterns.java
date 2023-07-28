@@ -256,9 +256,26 @@ public class Patterns {
 		 */
 	        //code is written above by inside the method.
 		new Patterns().m1();
-		
-		
-		
+
+		/*
+			1 2 3 4
+			5 6 7
+			8 9
+			10
+     */
+
+		int num = 20;
+		int n = (num/2);	 // for row
+		int count_No = 1;
+		for(int row=n; row>1; row--)
+		{
+			for(int col = 1; col<row; col++)
+			{
+				System.out.print(count_No + " ");
+				count_No++;
+			}
+			System.out.println();
+		}
 		
 		
 	}
