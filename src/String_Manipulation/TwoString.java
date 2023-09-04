@@ -11,10 +11,10 @@ public class TwoString
     public static void main(String[] args)
     {
         String str1 = "barbell";
-//        String str2 = "wtyuop";
-        String str2 = "barbell";
-        HashSet s1 = getSetDetails(str1);
-        HashSet s2 = getSetDetails(str2);
+        String str2 = "wtyuopb";
+//        String str2 = "barbell";
+        HashSet<Character> s1 = getSetDetails(str1);
+        HashSet<Character> s2 = getSetDetails(str2);
 
 //        boolean se = s1.stream().anyMatch(s2::contains);
         s1.retainAll(s2);
@@ -26,9 +26,9 @@ public class TwoString
 
     }
 
-    private static HashSet getSetDetails(String val)
+    private static HashSet<Character> getSetDetails(String val)
     {
-        HashSet s1 = new HashSet();
+        HashSet<Character> s1 = new HashSet<Character>();
         char[] at = val.toCharArray();
         for(char as : at)
         {

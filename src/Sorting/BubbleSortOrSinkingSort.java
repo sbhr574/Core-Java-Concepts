@@ -19,7 +19,8 @@ public class BubbleSortOrSinkingSort {
 		System.out.println(ar.length);
 		int temp=0;
 		int count =0;
-		for(int i=0;i<ar.length-1;i++) {
+		for(int i=0;i<ar.length-1;i++)
+		{
 //			if(ar[2]==7) {
 //				System.out.println(Arrays.toString(ar));
 //				break;

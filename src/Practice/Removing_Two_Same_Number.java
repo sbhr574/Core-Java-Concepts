@@ -3,6 +3,7 @@ package Practice;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Stack;
 
 public class Removing_Two_Same_Number
 {
@@ -14,20 +15,38 @@ public class Removing_Two_Same_Number
 
         //Arrays.sort(ar); // if array is not sorted
 
-        List<Integer> lt1 = new ArrayList<>();
+//        below impl is without collection but not working
+//        List<Integer> lt1 = new ArrayList<>();
+//
+//        for(int i=1;i<ar.length;i++)
+//        {
+//            if(ar[i-1]==ar[i])
+//            {
+//                i = i + 1;
+//            }
+//            else
+//            {
+//                lt1.add(ar[i-1]);
+//            }
+//        }
+//
+//        System.out.println(lt1);
 
-        for(int i=1;i<ar.length;i++)
+        Stack<Integer> df = new Stack<>();
+        for(int i=0; i<ar.length; i++)
         {
-            if(ar[i-1]==ar[i])
+            boolean flg = true;
+            if(!df.isEmpty())
             {
-                i = i + 1;
+                if(df.peek().equals(ar[i]))
+                {
+                    df.pop();
+                    flg = false;
+                }
             }
-            else
-            {
-                lt1.add(ar[i-1]);
-            }
+            if(flg) df.push(ar[i]);
         }
-
-        System.out.println(lt1);
+        System.out.println(df);
     }
+
  }

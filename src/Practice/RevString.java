@@ -15,11 +15,13 @@ public class RevString
         System.out.println(revStr);
 
         char[] st = str.toCharArray();
+        StringBuilder srt = new StringBuilder();
         revStr = "";
         for(int i=len-1; i>=0; i--)
         {
+            srt.append(st[i]);
             revStr = revStr + st[i];
         }
-        System.out.println(revStr);
+        System.out.println(revStr +" "+ srt);
     }
 }

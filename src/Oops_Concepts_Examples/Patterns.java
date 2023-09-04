@@ -264,20 +264,26 @@ public class Patterns {
 			10
      */
 
-		int num = 20;
+		int num = 10;
 		int n = (num/2);	 // for row
 		int count_No = 1;
-		for(int row=n; row>1; row--)
+		for(int row=1; row<n; row++)
 		{
-			for(int col = 1; col<row; col++)
+
+			for(int col = n-row; col>0; col--)
 			{
 				System.out.print(count_No + " ");
 				count_No++;
 			}
+			//for space
+			for (int k2 = 1; k2<row; k2++) {
+				System.out.print(" ");
+			}
 			System.out.println();
 		}
-		
-		
+
+
+
 	}
 
 }
