@@ -11,12 +11,12 @@ public class Good_Pairs
         //Calculating the frequency of each number
         int[] count = new int[101];
         int totalCount = 0;
-//        for(int num : nums)
-//        {
-//            count[num]++;
-//        }
+        for(int num : nums)
+        {
+            count[num]++;
+        }
 
-//        System.out.println(Arrays.toString(count));
+        System.out.println(Arrays.toString(count));
 //
 //        for(int i: count)
 //        {
@@ -53,7 +53,7 @@ public class Good_Pairs
         int[] th = {1,2,3,1,1,3};
         int[] ar = {1,1,1,1};
         int[] ar2 = {1,2,3,4};
-//        System.out.println(numIdenticalPairs(ar));
+        System.out.println(numIdenticalPairs(ar));
 //        System.out.println(numIdenticalPairs(ar2));
 
         find_duplicate(th);
