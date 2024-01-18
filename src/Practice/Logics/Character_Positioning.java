@@ -8,6 +8,8 @@ public class Character_Positioning
     {
         String str = "xxxxbbtttrrrrcaaa";
 
+        //for this input xxxxxxxxbttrca this code is throwing a error.
+
         int[] hash = new int[26];
 
         for(int i=0;i<str.length();i++)
