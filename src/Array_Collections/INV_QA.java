@@ -43,12 +43,9 @@ class Emp
         this.sal = sal;
         this.dept = dept;
     }
-
-
 }
 public class INV_QA
 {
-
     public static void test1()
     {
 
@@ -88,12 +85,7 @@ public class INV_QA
             }
         }
 
-
-
-
         System.out.println(result);
-
-
 
     }
 

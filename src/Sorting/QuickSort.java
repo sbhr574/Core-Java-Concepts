@@ -7,22 +7,23 @@ import java.util.Arrays;
 
 /**
  * @author Subhajit
+ * <a href="https://www.youtube.com/watch?v=QN9hnmAgmOc">...</a>
  *
  */
 public class QuickSort {
 
 	/**
-	 * @param args
+	 * @param
 	 */
 	
-	
+
 	public static int partition(int ar1[], int lb, int ub) {
 		int pivot = ar1[lb];
 		int start = lb;
 		int end = ub ;
 		while(start<end) {
 			while(ar1[start]<=pivot) {
-				if(start==ub) 
+				if(start==end)
 				     break;
 				start++;
 			}
@@ -63,10 +64,10 @@ public class QuickSort {
 	}
 	
 	
-	public static void main(String[] args) {
-
-//		int ar[] = {35,50,13,45,70,67,90,41};
-		int ar[] = {7,6,10,5,9,2,1,15,7};
+	public static void main(String[] args)
+	{
+		int ar[] = {35,50,13,45,70,67,90,41};
+//		int ar[] = {7,6,10,5,9,2,1,15,7};
 		quicksort(ar, 0, ar.length-1);
 		System.out.println("Final result :: "+Arrays.toString(ar));
 		

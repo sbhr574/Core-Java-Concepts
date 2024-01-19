@@ -50,7 +50,7 @@ public class Find_NonRepeating_num
 
     public static void main(String[] args) {
         int[] arr = {19,8,8 ,2,2,5,15,21,22};
-//        System.out.println(getNum(arr));
-        fun12(arr);
+        System.out.println(getNum(arr));
+//        fun12(arr);
     }
 }

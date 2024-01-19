@@ -1,0 +1,10 @@
+1. Find Second highest number from an array. - Easy
+2. Find smaller than current number from an array and print the count as a array. - Medium
+3. Find duplicate from an array. - Easy
+4. Reverse Number to check it's palindrome or not - Easy
+5. Character Positioning means each duplicate char shouldn't set as adjacent char or next to each other. - Medium(Practice.Logics.Character_Positioning)
+6. Patterns
+7. Bubble sort or Sinking sort - easy
+8. Quick sort - Medium
+9. Binary Search - Easy(Practice.BinarySearch)
+10. Reorganize the string and string shouldn't contain duplicate character next to each other. - Easy(Practice.SAS.Reorganize_String)

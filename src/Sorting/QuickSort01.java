@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class QuickSort01 {
 
 	/**
-	 * @param args
+	 * @param 
 	 */
 	
 	public static int partition(int[] array, int left, int right) {
@@ -59,7 +59,8 @@ public class QuickSort01 {
 	
 	public static void main(String[] args) {
 //		int ar[] = {35,50,13,45,70,67,90,41};
-		int ar[] = { 11, 14, 16, 12, 11, 15};
+//		int ar[] = { 11, 14, 16, 12, 11, 15};
+        int ar[] = {7,6,10,5,9,2,1,15,7};
 		recursiveQuickSort(ar, 0, ar.length-1);
 		System.out.println("Final result :: "+Arrays.toString(ar));
 
