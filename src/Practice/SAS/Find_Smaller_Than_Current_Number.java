@@ -16,7 +16,9 @@ public class Find_Smaller_Than_Current_Number
         for(int i=1; i<count.length; i++)
         {
             System.out.println(Arrays.toString(count));
-            count[i] += count[i - 1];
+            System.out.println(count[i] +"<->"+ count[i - 1]);
+            System.out.println(count[i] + count[i - 1]);
+            count[i] += count[i - 1]; //count[i] + count[i - 1] , means (current value + previous value)
             System.out.println(Arrays.toString(count));
         }
 
