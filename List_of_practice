@@ -1,10 +1,17 @@
 1. Find Second highest number from an array. - Easy
-2. Find smaller than current number from an array and print the count as a array. - Medium
+2. Find smaller than current number from an array and print the count as a array. - Medium (Practice.SAS. )
 3. Find duplicate from an array. - Easy
 4. Reverse Number to check it's palindrome or not - Easy
-5. Character Positioning means each duplicate char shouldn't set as adjacent char or next to each other. - Medium(Practice.Logics.Character_Positioning)
+5. Character Positioning. - Medium (Practice.Logics.Character_Positioning)
 6. Patterns
 7. Bubble sort or Sinking sort - easy
 8. Quick sort - Medium
 9. Binary Search - Easy(Practice.BinarySearch)
-10. Reorganize the string and string shouldn't contain duplicate character next to each other. - Easy(Practice.SAS.Reorganize_String)
+10. Reorganize the string and string shouldn't contain duplicate character next to each other. - Easy (Practice.SAS.Reorganize_String)
+11. Longest Substring Without Repeating Characters - Medium ------- Imp
+12. Removing element from array - Easy
+13. Good Paris--- (Practice.SAS.Good_Paris)
+14. Add Binary - (LeetCode.AddBinary)
+15. Fibonacci - Easy https://www.youtube.com/watch?v=cum3OrpURzc
+16. Find longest palindromic substring from a string - Medium (Practice.Instream_Concept)
+17. Two sum - Easy
