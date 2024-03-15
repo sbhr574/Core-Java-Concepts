@@ -7,7 +7,7 @@
 7. Bubble sort or Sinking sort - easy
 8. Quick sort - Medium
 9. Binary Search - Easy(Practice.BinarySearch)
-10. Reorganize the string and string shouldn't contain duplicate character next to each other. - Easy (Practice.SAS.Reorganize_String)
+10. Reorganize the string and shouldn't contain duplicate character next to each other. - Easy (Practice.SAS.Reorganize_String)
 11. Longest Substring Without Repeating Characters - Medium ------- Imp (Practice.LeetCode.LongestSubstringWithoutRepeat)
 12. Removing element from array - Easy
 13. Good Paris--- (Practice.SAS.Good_Paris)
@@ -17,4 +17,5 @@
 17. Two sum - Easy
 18. Find first unique character from a string - Medium (https://www.youtube.com/watch?v=tYozGI1Vd_s&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=2)
 19. Longest Common Prefix from string array - Simple (https://www.youtube.com/watch?v=wtOQaovlvhY&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=12)
-20.
+20. Remove duplicate from sorted array without collection - Easy
+21. Remove All Adjacent Duplicates In String - Easy -------- Imp
