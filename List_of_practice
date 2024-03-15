@@ -15,7 +15,8 @@
 15. Fibonacci - Easy https://www.youtube.com/watch?v=cum3OrpURzc
 16. Find longest palindromic substring from a string - Medium (Practice.Instream_Concept)
 17. Two sum - Easy
-18. Find first unique character from a string - Medium (https://www.youtube.com/watch?v=tYozGI1Vd_s&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=2)
+18. Find first unique character from a string - Easy (LeetCode) (https://www.youtube.com/watch?v=tYozGI1Vd_s&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=2)
 19. Longest Common Prefix from string array - Simple (https://www.youtube.com/watch?v=wtOQaovlvhY&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=12)
-20. Remove duplicate from sorted array without collection - Easy
-21. Remove All Adjacent Duplicates In String - Easy -------- Imp
+20. Remove duplicate number from sorted array without collection - Easy
+21. Remove All Adjacent Duplicates In String - Easy -------- Imp (Practice.LeetCode.String)
+22. Fizz Buzz - Easy ----- Imp
