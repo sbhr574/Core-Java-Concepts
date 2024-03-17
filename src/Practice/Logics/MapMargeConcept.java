@@ -12,14 +12,14 @@ public class MapMargeConcept
         for(int num: ar)
         {
             mp.merge(num, 1, Integer::sum); // num=key, 1= value, Integer::sum is BiFunction
-            if(mp.get(num) == null)
-            {
-                mp.put(num , 1);
-            }
-            else
-            {
-                mp.put(num, mp.get(num)+1);
-            }
+//            if(mp.get(num) == null)
+//            {
+//                mp.put(num , 1);
+//            }
+//            else
+//            {
+//                mp.put(num, mp.get(num)+1);
+//            }
         }
     }
 }
