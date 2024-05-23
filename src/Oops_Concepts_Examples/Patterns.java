@@ -282,6 +282,25 @@ public class Patterns {
 			System.out.println();
 		}
 
+		//Single for loop
+		int count_star = 0;
+		int line = 1;
+		for(line = 1; line<5;)
+		{
+			if(count_star<line)
+			{
+				System.out.print("* ");
+				count_star++;
+				continue;
+			}
+
+			if(count_star==line)
+			{
+				System.out.println();
+				line++;
+				count_star = 0;
+			}
+		}
 
 
 	}
