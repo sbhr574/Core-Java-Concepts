@@ -1,12 +1,14 @@
 package Practice.SAS;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Find_Smaller_Than_Current_Number
 {
     private static void test(int[] ar)
     {
-        int[] count = new int[20];
+        int[] count = new int[102];
 
         for(int num : ar)
         {
@@ -38,10 +40,32 @@ public class Find_Smaller_Than_Current_Number
 
     }
 
+    //Another way to do it. This is easy and understandable
+    private static void getResult(int ar[])
+    {
+        int[] sorted_ar = ar.clone();
+        Arrays.sort(sorted_ar);
+
+        Map<Integer, Integer> mp = new HashMap<>();
+        for(int i = 0; i<sorted_ar.length; i++)
+        {
+            mp.putIfAbsent(sorted_ar[i], i);
+        }
+
+        int[] result = new int[ar.length];
+        for(int i=0; i<ar.length; i++)
+        {
+            result[i] = mp.get(ar[i]);
+        }
+
+        System.out.println(Arrays.toString(result));
+    }
+
     public static void main(String[] args)
     {
         int[] th = {8,1,2,2,3, 0, 0};
         test(th);
+        getResult(th);
 
     }
 }
