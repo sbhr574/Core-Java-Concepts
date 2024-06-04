@@ -6,7 +6,7 @@ public class Character_Positioning
 {
     public static void test()
     {
-        String str = "xxxxbbtttrrrrcaaa";
+        String str = "xxxxxxxbbttrca";
 
         //for this input xxxxxxxxbttrca this code is throwing a error.
 
@@ -14,7 +14,7 @@ public class Character_Positioning
 
         for(int i=0;i<str.length();i++)
         {
-            hash[str.charAt(i) - 'a']++;
+            hash[str.charAt(i) - 'a']++; //to get the position doing this(str.charAt(i) - 'a').Here 'a' ascii is 97 same (str.charAt(i) - 97)
         }
         int max = 0, charIndex = 0;
         for(int i=0;i<hash.length;i++)
