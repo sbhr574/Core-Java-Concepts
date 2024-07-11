@@ -1,4 +1,4 @@
-1. Find Second highest number from an array. - Easy
+1. Find Second highest number from an array. - Easy (Practice.ThermoFisher)
 2. Find smaller than current number from an array and print the count as a array. - Medium (Practice.SAS. )
 3. Find duplicate from an array. - Easy
 4. Reverse Number to check it's palindrome or not - Easy
@@ -7,7 +7,7 @@
 7. Bubble sort or Sinking sort - easy
 8. Quick sort - Medium
 9. Binary Search - Easy(Practice.BinarySearch)
-10. Reorganize the string and shouldn't contain duplicate character next to each other. - Easy (Practice.SAS.Reorganize_String)
+10. Reorganize the string and shouldn't contain duplicate character next to each other. - Easy (Practice.Logics.Character_Positioning)
 11. Longest Substring Without Repeating Characters - Medium ------- Imp (Practice.LeetCode.LongestSubstringWithoutRepeat)
 12. Removing element from array - Easy
 13. Good Paris--- (Practice.SAS.Good_Paris)
@@ -15,8 +15,12 @@
 15. Fibonacci - Easy https://www.youtube.com/watch?v=cum3OrpURzc
 16. Find longest palindromic substring from a string - Medium (Practice.Instream_Concept)
 17. Two sum - Easy
-18. Find first unique character from a string - Easy (LeetCode) (https://www.youtube.com/watch?v=tYozGI1Vd_s&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=2)
-19. Longest Common Prefix from string array - Simple (https://www.youtube.com/watch?v=wtOQaovlvhY&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=12)
-20. Remove duplicate number from sorted array without collection - Easy
+18. Find first unique character from a string - Easy (Practice.LeetCode.String.FirstUniqueCharIndex) (https://www.youtube.com/watch?v=tYozGI1Vd_s&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=2)
+19. Find Longest Common Prefix from STRING ARRAY - Simple (https://www.youtube.com/watch?v=wtOQaovlvhY&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=12)
+20. Remove duplicate number from sorted array without collection - Easy (Practice.Baxter.FindUniqueElement)
 21. Remove All Adjacent Duplicates In String - Easy -------- Imp (Practice.LeetCode.String)
-22. Fizz Buzz - Easy ----- Imp
+22. Fizz Buzz - Easy ----- Imp\
+23. Find Insert Positioning ------- Easy (LeetCode)
+24. Check prime number or not ----- Easy (Search for code)
+25. How To Remove Junk or Special Characters in String --- Easy(https://www.youtube.com/watch?v=x0SghWs1bsE)  Practice.Logics.Removing_Special_Characters
+26. 125. LeetCode Valid Palindrome ---- Easy
