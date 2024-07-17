@@ -35,6 +35,9 @@ public class LongestSubstringWithoutRepeat
 
     public static int lengthOfLongestSubstringBestLogic(String s) {
         int maxlength = 0;
+        int start = Integer.MIN_VALUE;
+        int end = Integer.MIN_VALUE;
+
         for(int right = 0, left=0; right<s.length(); right++)
         {
             int indexOfFirst = s.indexOf(s.charAt(right), left);
@@ -42,8 +45,16 @@ public class LongestSubstringWithoutRepeat
             {
                 left = indexOfFirst +1;
             }
-            maxlength = Math.max(maxlength, right - left+1);
+            if((maxlength < (right - left+1)))
+            {
+                maxlength = Math.max(maxlength, right - left+1);
+                end = right;
+                start = left;
+            }
+
         }
+
+        System.out.println(s.substring(start, end+1));
         return maxlength;
     }
 
