@@ -24,3 +24,10 @@
 24. Check prime number or not ----- Easy (Search for code)
 25. How To Remove Junk or Special Characters in String --- Easy(https://www.youtube.com/watch?v=x0SghWs1bsE)  Practice.Logics.Removing_Special_Characters
 26. 125. LeetCode Valid Palindrome ---- Easy
+27. Input- aabbccdebbd, Output-a2b2c2d1e1b2d1 - Easy ---- Practice.Baxter.StringNG
+28. Given an array of strings, group the strings that are anagrams of each other.
+Input:
+arr = ["eat", "tea", "tan", "ate", "nat", "bat"]
+Output:
+[["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
+29. Given an unsorted array of integers, find the third largest number in the array. If the array has less than three distinct numbers, return the largest number.
