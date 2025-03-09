@@ -6,6 +6,10 @@ import java.util.Map;
 
 public class Find_Smaller_Than_Current_Number
 {
+    /**
+     * Approach 1
+     */
+
     private static void test(int[] ar)
     {
         int[] count = new int[102];
@@ -40,7 +44,11 @@ public class Find_Smaller_Than_Current_Number
 
     }
 
-    //Another way to do it. This is easy and understandable
+    /**
+     * Approach 2
+     * Another way to do it. This is easy and understandable
+     */
+
     private static void getResult(int ar[])
     {
         int[] sorted_ar = ar.clone();
@@ -63,7 +71,7 @@ public class Find_Smaller_Than_Current_Number
 
     public static void main(String[] args)
     {
-        int[] th = {8,1,2,2,3, 0, 0};
+        int[] th = {8,1,2,6,3, 5, 4};
         test(th);
         getResult(th);
 
